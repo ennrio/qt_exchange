@@ -1,0 +1,7 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource>
+        <file>icons/currency.png</file>
+        <file>icons/user.png</file>
+        <file>icons/exchange.png</file>
+    </qresource>
+</RCC>

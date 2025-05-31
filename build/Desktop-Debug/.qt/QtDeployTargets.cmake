@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_common_lib_FILE /home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/common/libcommon_lib.a)
+set(__QT_DEPLOY_TARGET_common_lib_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_client_app_FILE /home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/client/client_app)
+set(__QT_DEPLOY_TARGET_client_app_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_admin_app_FILE /home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/admin/admin_app)
+set(__QT_DEPLOY_TARGET_admin_app_TYPE EXECUTABLE)

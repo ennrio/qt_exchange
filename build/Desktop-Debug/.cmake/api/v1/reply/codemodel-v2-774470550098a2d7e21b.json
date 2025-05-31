@@ -1,0 +1,180 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-Debug-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "client",
+					"jsonFile" : "directory-client-Debug-eda4c8a4dacec2844350.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "client",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "admin",
+					"jsonFile" : "directory-admin-Debug-b67a298c04cf5698a26a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "admin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "ExchangeApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "admin_app::@fb001dfcffd1c899f329",
+					"jsonFile" : "target-admin_app-Debug-ac1237bc7f2d4d305f7c.json",
+					"name" : "admin_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "admin_app_autogen::@fb001dfcffd1c899f329",
+					"jsonFile" : "target-admin_app_autogen-Debug-2302d2e6f8c15b8e6f25.json",
+					"name" : "admin_app_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "admin_app_autogen_timestamp_deps::@fb001dfcffd1c899f329",
+					"jsonFile" : "target-admin_app_autogen_timestamp_deps-Debug-aedc020f502e29684822.json",
+					"name" : "admin_app_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "client_app::@b0c487aac068df482bf0",
+					"jsonFile" : "target-client_app-Debug-f5d2c6c70fef6cd16cb9.json",
+					"name" : "client_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "client_app_autogen::@b0c487aac068df482bf0",
+					"jsonFile" : "target-client_app_autogen-Debug-7643ae6898a0ee4ddc69.json",
+					"name" : "client_app_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "client_app_autogen_timestamp_deps::@b0c487aac068df482bf0",
+					"jsonFile" : "target-client_app_autogen_timestamp_deps-Debug-b4c5c375fad54a139380.json",
+					"name" : "client_app_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common_lib::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common_lib-Debug-e0df7aecd1eda8c82820.json",
+					"name" : "common_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common_lib_autogen::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common_lib_autogen-Debug-e3891e97a1cf3f65e6b8.json",
+					"name" : "common_lib_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common_lib_autogen_timestamp_deps::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common_lib_autogen_timestamp_deps-Debug-2311b9a3f629ed934291.json",
+					"name" : "common_lib_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug",
+		"source" : "/home/egor/all/study/4seml/OOP/exchange_app"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

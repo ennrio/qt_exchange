@@ -1,0 +1,17 @@
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/common/CMakeFiles/common_lib.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/common/CMakeFiles/edit_cache.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/common/CMakeFiles/rebuild_cache.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/common/CMakeFiles/common_lib_autogen_timestamp_deps.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/common/CMakeFiles/common_lib_autogen.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/client/CMakeFiles/client_app.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/client/CMakeFiles/edit_cache.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/client/CMakeFiles/rebuild_cache.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/client/CMakeFiles/client_app_autogen_timestamp_deps.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/client/CMakeFiles/client_app_autogen.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/admin/CMakeFiles/admin_app.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/admin/CMakeFiles/edit_cache.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/admin/CMakeFiles/rebuild_cache.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/admin/CMakeFiles/admin_app_autogen_timestamp_deps.dir
+/home/egor/all/study/4seml/OOP/exchange_app/build/Desktop-Debug/admin/CMakeFiles/admin_app_autogen.dir

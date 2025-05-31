@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"admin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "common_lib::@bfc844598bd03e848b3c"
+		}
+	],
+	"id" : "admin_app_autogen_timestamp_deps::@fb001dfcffd1c899f329",
+	"isGeneratorProvided" : true,
+	"name" : "admin_app_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "admin",
+		"source" : "admin"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
