@@ -16,6 +16,9 @@ public:
     explicit ProfileWidget(QWidget *parent = nullptr);
     ~ProfileWidget();
 
+signals:
+    void logoutRequested();
+
 private slots:
     void onPasswordChangeClicked();
     void onLogoutClicked();

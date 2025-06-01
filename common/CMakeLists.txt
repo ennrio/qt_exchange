@@ -1,20 +1,22 @@
-add_library(common_lib STATIC
+qt_add_library(common_lib STATIC
+    database/DatabaseManager.h
     database/DatabaseManager.cpp
+    models/CurrencyModel.h
     models/CurrencyModel.cpp
+    services/AuthService.h
     services/AuthService.cpp
 )
 
 target_link_libraries(common_lib
     Qt6::Core
     Qt6::Sql
-    Qt6::Network
-    pthread
 )
+
+
 
 set(HEADERS
     database/DatabaseManager.h
-    models/CurrencyModel.cpp
-    services/AuthService.cpp
+    services/AuthService.h
 )
 
 source_group("Database Headers" FILES ${HEADERS})

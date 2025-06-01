@@ -151,4 +151,38 @@ QList<QVariantMap> DatabaseManager::getAllCurrencies()
 
     return currencies;
 }
-// Реализации других методов аналогичны...
+
+int DatabaseManager::createExchangeRequest(int userId, int fromCurrencyId, int toCurrencyId, double amount)
+{
+    QSqlQuery query;
+    query.prepare("INSERT INTO exchange_requests (user_id, from_currency_id, to_currency_id, amount) "
+    "VALUES (?, ?, ?, ?)");
+    query.addBindValue(userId);
+    query.addBindValue(fromCurrencyId);
+    query.addBindValue(toCurrencyId);
+    query.addBindValue(amount);
+
+    if (query.exec()) {
+        return query.lastInsertId().toInt();
+    } else {
+        qCritical() << "Failed to create exchange request:" << query.lastError().text();
+        return -1;
+    }
+}
+
+bool DatabaseManager::updateRequestStatus(int requestId, const QString& status, const QString& adminNotes)
+{
+    QSqlQuery query;
+    query.prepare("UPDATE exchange_requests SET status = ?, admin_notes = ?, processed_at = CURRENT_TIMESTAMP "
+                  "WHERE id = ?");
+    query.addBindValue(status);
+    query.addBindValue(adminNotes);
+    query.addBindValue(requestId);
+
+    if (query.exec()) {
+        return true;
+    } else {
+        qCritical() << "Failed to update request status:" << query.lastError().text();
+        return false;
+    }
+}

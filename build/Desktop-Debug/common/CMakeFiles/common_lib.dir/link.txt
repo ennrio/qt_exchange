@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcommon_lib.a CMakeFiles/common_lib.dir/common_lib_autogen/mocs_compilation.cpp.o CMakeFiles/common_lib.dir/database/DatabaseManager.cpp.o CMakeFiles/common_lib.dir/models/CurrencyModel.cpp.o CMakeFiles/common_lib.dir/services/AuthService.cpp.o
-/usr/bin/ranlib libcommon_lib.a

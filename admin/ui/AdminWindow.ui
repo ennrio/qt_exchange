@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>AdminWindow</class>
+    <widget class="QMainWindow" name="AdminWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>1024</width>
+                <height>768</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Administration Panel</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <layout class="QVBoxLayout" name="verticalLayout">
+                <item>
+                    <widget class="QTabWidget" name="tabWidget">
+                        <property name="currentIndex">
+                            <number>0</number>
+                        </property>
+                        <widget class="QWidget" name="tabUsers">
+                            <attribute name="title">
+                                <string>&amp;Users</string>
+                            </attribute>
+                        </widget>
+                        <widget class="QWidget" name="tabCurrencies">
+                            <attribute name="title">
+                                <string>&amp;Currencies</string>
+                            </attribute>
+                        </widget>
+                        <widget class="QWidget" name="tabRequests">
+                            <attribute name="title">
+                                <string>&amp;Exchange Requests</string>
+                            </attribute>
+                        </widget>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>1024</width>
+                    <height>25</height>
+                </rect>
+            </property>
+            <widget class="QMenu" name="menuFile">
+                <property name="title">
+                    <string>&amp;File</string>
+                </property>
+                <addaction name="actionExit"/>
+            </widget>
+            <widget class="QMenu" name="menuTools">
+                <property name="title">
+                    <string>&amp;Tools</string>
+                </property>
+                <addaction name="actionRefresh"/>
+            </widget>
+            <addaction name="menuFile"/>
+            <addaction name="menuTools"/>
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+        <action name="actionExit">
+            <property name="text">
+                <string>&amp;Exit</string>
+            </property>
+            <property name="shortcut">
+                <string>Ctrl+Q</string>
+            </property>
+        </action>
+        <action name="actionRefresh">
+            <property name="text">
+                <string>&amp;Refresh</string>
+            </property>
+            <property name="shortcut">
+                <string>F5</string>
+            </property>
+        </action>
+    </widget>
+    <resources/>
+    <connections>
+        <connection>
+            <sender>actionExit</sender>
+            <signal>triggered()</signal>
+            <receiver>AdminWindow</receiver>
+            <slot>close()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>248</x>
+                    <y>244</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>157</x>
+                    <y>274</y>
+                </hint>
+            </hints>
+        </connection>
+    </connections>
+</ui>

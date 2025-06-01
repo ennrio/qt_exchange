@@ -16,10 +16,12 @@ public:
     explicit RequestsAdminWidget(QWidget *parent = nullptr);
     ~RequestsAdminWidget();
 
+public slots:
+    void updateRequests();
+
 private slots:
     void onApproveClicked();
     void onRejectClicked();
-    void updateRequests();
 
 private:
     Ui::RequestsAdminWidget *ui;

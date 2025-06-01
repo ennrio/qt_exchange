@@ -2,7 +2,7 @@
 #include <QSqlRelationalTableModel> /
 #include "RequestsAdminWidget.h"
 #include "ui_RequestsAdminWidget.h"
-#include "common/database/DatabaseManager.h"
+#include "../common/database/DatabaseManager.h"
 #include <QMessageBox>
 #include <QSqlError>
 #include <QSqlRelationalDelegate>

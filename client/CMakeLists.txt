@@ -4,6 +4,7 @@ add_executable(client_app
     widgets/ExchangeWidget.cpp
     widgets/RequestsWidget.cpp
     widgets/ProfileWidget.cpp
+    ui/LoginDialog.cpp
     ../resources/icons.qrc
 )
 

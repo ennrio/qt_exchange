@@ -16,6 +16,10 @@ public:
     explicit UsersWidget(QWidget *parent = nullptr);
     ~UsersWidget();
 
+public slots:
+    // ИСПРАВЛЕНИЕ: переименовано в updateUsersTable
+    void updateUsersTable();
+
 private slots:
     void onAddUser();
     void onDeleteUser();

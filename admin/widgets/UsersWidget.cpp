@@ -1,9 +1,8 @@
 #include "UsersWidget.h"
 #include "ui_UsersWidget.h"
-#include "common/database/DatabaseManager.h"
+#include "../common/database/DatabaseManager.h"
 #include <QMessageBox>
 #include <QSqlError>
-#include <QSqlTableModel>
 
 UsersWidget::UsersWidget(QWidget *parent) :
 QWidget(parent),
@@ -47,4 +46,11 @@ void UsersWidget::onDeleteUser()
     if (index.isValid()) {
         model->removeRow(index.row());
     }
+}
+
+// ИСПРАВЛЕНИЕ: переименовано в updateUsersTable
+void UsersWidget::updateUsersTable()
+{
+    model->submitAll();
+    model->select();
 }

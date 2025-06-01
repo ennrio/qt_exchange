@@ -1,5 +1,5 @@
 #include "ui/AdminWindow.h"
-#include "common/database/DatabaseManager.h"
+#include "../common/database/DatabaseManager.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])

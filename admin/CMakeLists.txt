@@ -4,8 +4,20 @@ add_executable(admin_app
     widgets/UsersWidget.cpp
     widgets/CurrenciesWidget.cpp
     widgets/RequestsAdminWidget.cpp
+    ui/LoginDialog.cpp
     ../resources/icons.qrc
+    widgets/UsersWidget.h
+    widgets/CurrenciesWidget.h
+    widgets/RequestsAdminWidget.h
 )
+
+set(UI
+    ui/AdminWindow.cpp
+    ui/AdminWindow.h
+    ui/AdminWindow.h
+)
+
+source_group("UI" FILES ${UI})
 
 target_link_libraries(admin_app
     common_lib
